@@ -1,0 +1,82 @@
+.signUpBox {
+	margin: 25px;
+	width:auto;
+	text-align: right;
+	display: table;
+
+
+}
+
+.signUpInput {
+	border-radius: 6px;
+	border:thin solid silver;
+	width: 300px;
+	height: 1.8em;
+	margin-left: 35px;
+
+
+}
+
+
+.formLabel {
+	width: 100px;
+	vertical-align: middle;
+	display: table-cell;
+
+}
+
+.cityLabel {
+	width:175px;
+
+}
+
+.stateLabel {
+	width: 40px;
+}
+
+.stateForm {
+	display: inline;
+	margin-left: 10px;
+}
+
+.newsletterButton {
+	width: auto;
+}
+
+.newsletter {
+	margin-left: 150px;
+}
+
+.checkBox {
+	margin-right: 10px;
+}
+
+.submitButton {
+	border:none;
+	background-color: silver;
+	width:300px;
+	height:38px;
+	border-radius: 6px;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
