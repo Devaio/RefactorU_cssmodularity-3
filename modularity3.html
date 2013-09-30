@@ -80,18 +80,18 @@
           <div class="instruction-answer">
             <!-- Edit here -->
             <form>
-              <div>
-                <label>First Name</label>
-                <input class="signUpInput" type="text" name="firstName" value="Pascal">
+              <div class="signUpBox">
+                <label class="formLabel">First Name</label>
+                <input class="signUpInput is-valid-box" type="text" name="firstName" value="Pascal">
                 <span class="is-valid">✓</span>
               </div>
-              <div>
-                <label>Last Name</label>
+              <div class="signUpBox">
+                <label class="formLabel">Last Name</label>
                 <input class="signUpInput" type="text" name="lastName">
               </div>
-              <div>
-                <label>Email</label>
-                <input class="signUpInput" type="email" name="email" value="myemail@something">
+              <div class="signUpBox">
+                <label class="formLabel">Email</label>
+                <input class="signUpInput is-invalid-box" type="email" name="email" value="myemail@something">
                 <span class="is-invalid">Please enter a valid value.</span>
               </div>
             </form>
@@ -105,12 +105,12 @@
           <p class="instruction-text">The textbox should be fluid, i.e. stretch to fit the available space when the window changes size. <em>Hint: Look up 3-column layouts with fluid center.</em></p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <div>
-              <label>Find groups</label>
+            <div class="searchBackground">
+              <label class="formLabel searchLabel">Find groups</label>
               <div>
-                <input placeholder="Find Groups by Title or Description">
+                <input class="signUpInput searchBarInput" placeholder="Find Groups by Title or Description">
               </div>
-              <input type="submit">
+              <input class="searchSubmit" type="submit">
             </div>
             <!-- End editable area -->
           </div>
@@ -122,8 +122,8 @@
           <p class="instruction-text">Create a textbox which can display multiple "tags" as there are entered.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <div>
-              <ul><li><a href="#">x</a>Date: Yesterday</li><li><a href="#">x</a>Label: Notes</li></ul>
+            <div class="omniBox">
+              <ul><li class="omniList"><a href="#">x</a>Date: Yesterday</li><li class="omniList"><a href="#">x</a>Label: Notes</li></ul>
               <input type="text" placeholder="Enter more terms">
             </div>
             <!-- End editable area -->
