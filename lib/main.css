@@ -130,3 +130,61 @@
   top: 3px;
   right: 35px;
 }
+.starNum {
+  float: right;
+  display: inline;
+  margin-right: 0px;
+  color: #333;
+  text-align: right;
+  font-size: 0.8em;
+  height: 2em;
+}
+.starNum:after {
+  content: " ★";
+  color: #808080;
+}
+.chunkyList {
+  list-style-image: url("repo.png");
+  width: 500px;
+}
+.chunkyListItem {
+  border: thin solid #dcdcdc;
+  list-style-image: url("repo.png");
+  list-style-position: inside;
+  padding: 5px;
+  height: 50px;
+}
+.chunkyTitle {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-left: 5px;
+}
+a {
+  text-decoration: none;
+}
+.chunkyText {
+  color: #333;
+  font-size: 0.8em;
+  margin-left: 30px;
+  overflow: hidden;
+  width: 370px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chunkyHeading {
+  background-color: #dcdcdc;
+  margin-left: 40px;
+  height: 20px;
+  width: 480px;
+  padding: 10px;
+  font-size: 0.75em;
+}
+.chunkyIcon:before {
+  content: url("repo.png");
+  float: left;
+  padding: 0px 10px 5px 10px;
+  margin-top: 5px;
+}
+.chunkyTable {
+  margin-left: 35px;
+}
